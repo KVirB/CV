@@ -1,13 +1,209 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.main {
+  height: 100vh;
+}
+.header {
+  display: flex;
+  height: 33%;
+  background-image: url("./images/background-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.myName {
+  color: rgb(195, 222, 223);
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  margin-left: 600px;
+}
+.mySurname {
+  color: rgb(195, 222, 223);
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  margin-left: 600px;
+}
+.specialization {
+  color: rgb(218, 216, 177);
+  font-family: "Skranji", cursive;
+  font-size: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.headerTitles {
+  padding-top: 30px;
+}
+.photoDiv {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  border: 5px solid rgb(207, 255, 231);
+  margin-left: 600px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 120px;
+  object-fit: contain;
+  position: relative;
+  animation: swayImage 10s linear infinite;
+}
+
+@keyframes swayImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.aboutMeDiv {
+  width: 400px;
+  height: calc(100vh - 440px);
+  background-color: rgb(2, 37, 25);
+  margin-left: 220px;
+}
+.leftHeading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: rgb(218, 216, 177);
+  margin-left: 40px;
+  padding-top: 20px;
+}
+h1 {
+  margin-top: 0;
+}
+.body {
+  background-color: rgb(218, 216, 177);
+  height: 62%;
+  display: flex;
+}
+.aboutMeText {
+  color: rgb(195, 222, 223);
+  margin-left: 40px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  margin-right: 40px;
+}
+.skillsText {
+  margin-left: 25px;
+  font-size: 20px;
+  color: rgb(195, 222, 223);
+  font-family: "Orbitron", sans-serif;
+}
+
+.rightHeading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: rgb(2, 37, 25);
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.universityHeading {
+  color: rgb(0, 99, 63);
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.rightContentDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.iconsDiv {
+  display: flex;
+}
+.rightListUl {
+  font-size: 20px;
+  color: rgb(2, 37, 25);
+  font-family: "Orbitron", sans-serif;
+}
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rightListUl {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.rightListUl .rightListLi {
+  position: relative;
+  padding-left: 15px;
+  border-left: 2px solid rgb(2, 37, 25);
+}
+
+.rightListUl .rightListLi::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(2, 37, 25);
+}
+.languagesDiv {
+  display: flex;
+}
+.rightContainer {
+  width: 400px;
+  height: fit-content;
+  margin-left: 160px;
+}
+.rightIcons {
+  width: 32px;
+  height: 32px;
+  margin-top: 16px;
+}
+.footer {
+  height: 5%;
+  background-color: rgb(2, 37, 25);
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconsFooter {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.footerDiv {
+  display: flex;
+  padding-top: 10px;
+}
+.footerText {
+  color: rgb(218, 216, 177);
+  text-decoration: none;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
 }
