@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18347c2f.css",
+    "main.js": "/static/js/main.dfe8026b.js",
+    "static/js/787.e8871c4f.chunk.js": "/static/js/787.e8871c4f.chunk.js",
+    "static/media/photo.svg": "/static/media/photo.45cf0bcf138e14da922179662bdf8391.svg",
+    "static/media/background-header.jpg": "/static/media/background-header.891057087c14b9ed786b.jpg",
+    "static/media/github.svg": "/static/media/github.e8fe791513c69f5d36f3f92f078fb7b0.svg",
+    "static/media/vk.svg": "/static/media/vk.0a5679f8c0ed5f99d7624c679eb4f18d.svg",
+    "static/media/earth-americas.svg": "/static/media/earth-americas.bc651c5fe51b93d269049c88a7343370.svg",
+    "static/media/person-circle-question.svg": "/static/media/person-circle-question.e270fdb6ffbb83644480db5f1d2ee8da.svg",
+    "index.html": "/index.html",
+    "static/media/gears.svg": "/static/media/gears.715625d66d4dbf8d7bbd5006a6681981.svg",
+    "static/media/hand-holding-skull.svg": "/static/media/hand-holding-skull.4efedc339bb9b4457870cddd047da087.svg",
+    "static/media/graduation-cap.svg": "/static/media/graduation-cap.3d5a1840b05f2953c48e3d1f8222f5eb.svg",
+    "static/media/smartphone.svg": "/static/media/smartphone.f3e8bd332c2b8425074c06f2472f964c.svg",
+    "main.18347c2f.css.map": "/static/css/main.18347c2f.css.map",
+    "main.dfe8026b.js.map": "/static/js/main.dfe8026b.js.map",
+    "787.e8871c4f.chunk.js.map": "/static/js/787.e8871c4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18347c2f.css",
+    "static/js/main.dfe8026b.js"
+  ]
+}
